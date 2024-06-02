@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop Now</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/shop_now.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="images/weight_king.png" alt="Weight King Logo" />
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="free_weights.html">Shop Now</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li class="burger-login"><a href="login.html">Login</a></li>
+                <li class="burger-register"><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <div class="btn-container">
+            <ul class="btn-links">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+
+    <div class="shopnow-container">
+        <div class="banner">
+            <h1>Welcome to Weight King</h1>
+        </div>
+
+        <div class="search-cart-container">
+            <div class="search-bar">
+                <input type="text" placeholder="Search..." class="search-input">
+                <button class="search-button">Search</button>
+            </div>
+            <a href="cart.html" class="cart-button"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+
+        <div class="shopnow-content">
+            <div class="product-sidebar">
+                <nav class="category-nav">
+                    <div>
+                        <h1>Categories</h1>
+                    </div>
+                    <ul class="category-links"> 
+                        <li><a id="free-weights" href="free_weights.html">Free Weights</a></li>
+                        <li><a id="machines" href="machines.html">Machines</a></li>
+                        <li><a id="calisthenics" href="calisthenics.html">Calisthenics</a></li>
+                        <li><a id="cardio" href="cardio.html">Cardio</a></li>
+                        <li><a id="gears" href="gears.html">Gears</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- GEARS -->
+
+            <section class="product-grid-container">
+                <div class="product-grid">
+                    <div class="product-item">
+                        <a href="product_page.html?category=gears&productId=product1"><img src="images/product-img/gears-weight-lifting-belt.jpeg" alt="Stationary Bicycle">
+                        <h2>Weight Lifting Belt</h2></a>
+                        <div class="price">₱500.00</div>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a href="product_page.html?category=gears&productId=product2"><img src="images/product-img/gears-weight-training-gloves.jpeg" alt="Indoor Rower">
+                        <h2>Weight Training Gloves</h2></a>
+                        <div class="price">₱500.00</div>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a href="product_page.html?category=gears&productId=product3"><img src="images/product-img/gears-wrist-straps.jpeg" alt="Stair Climber">
+                        <h2>Wrist Straps</h2></a>
+                        <div class="price">₱500.00</div>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a href="product_page.html?category=gears&productId=product4"><img src="images/product-img/gears-shoulder-strap.jpg" alt="Shoulder Strap">
+                        <h2>Shoulder Strap</h2></a>
+                        <div class="price">₱500.00</div>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentPage = window.location.pathname.split('/').pop();
+            const categoryMap = {
+                'free_weights.html': 'free-weights',
+                'machines.html': 'machines',
+                'calisthenics.html': 'calisthenics',
+                'cardio.html': 'cardio',
+                'gears.html': 'gears'
+            };
+            const currentLinkId = categoryMap[currentPage];
+            if (currentLinkId) {
+                document.getElementById(currentLinkId).classList.add('selected');
+            }
+        });
+    </script>
+
+    <script src="js/nav.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

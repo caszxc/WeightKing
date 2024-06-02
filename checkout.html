@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="images/weight_king.png" alt="Weight King Logo" />
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="free_weights.html">Shop Now</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li class="burger-login"><a href="login.html">Login</a></li>
+                <li class="burger-register"><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <div class="btn-container">
+            <ul class="btn-links">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    
+    <div class="checkout-container">
+        <div class="section delivery-address">
+            <h2>Delivery Address</h2>
+            <div class="address-details">
+                <div class="col1">
+                    <div>Name: <span id="name"></span></div>
+                    <div>Phone Number: <span id="phone"></span></div>
+                </div>
+                <div class="col2">
+                    <div>Address: <span id="address"></span></div>
+                </div>
+
+                <a href="profile.html" class="change-link">Change</a>
+            </div>
+        </div>
+        <div class="section products-ordered">
+            <h2>Products Ordered</h2>
+            <div class="products-list"></div>
+            <div class="order-total">Order total(0 items): 0</div>
+        </div>
+        <div class="section payment-method">
+            <h2>Payment Method</h2>
+            <div class="payment-details">
+                <span>Cash On Delivery</span>
+                <a href="#" class="change-link">Change</a>
+            </div>
+            <div class="payment-summary">
+                <div>Merchandise Subtotal: <span id="merchandise-subtotal">₱0</span></div>
+                <div>Shipping Total: <span id="shipping-total">₱0</span></div>
+                <div>Total Payment: <span class="total-payment">₱0.00</span></div>
+            </div>
+        </div>
+        <button class="place-order-btn">Place Order</button>
+    </div>
+
+    <script src="js/checkout.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

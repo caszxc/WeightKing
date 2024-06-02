@@ -1,0 +1,116 @@
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1d1d1d;
+    height: calc(100vh - 70px);
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    width: 20%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sidebar .btn-logout {
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+    align-self: center; /* Center the button horizontally */
+    margin-top: auto; /* Push the button to the bottom */
+}
+
+
+.profile-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 90%;
+}
+
+.profile-container form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.profile-container form h1 {
+    margin-bottom: 20px;
+    color: #1d1d1d;
+}
+
+.profile-container label {
+    margin: 10px 0 5px;
+    color: #1d1d1d;
+}
+
+.profile-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile-container form button{
+    margin-top: 20px;
+    padding: 5px;
+    width: 100px;
+    
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-pic button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.profile-pic button:hover {
+    background-color: #0056b3;
+}

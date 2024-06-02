@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/product_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="images/weight_king.png" alt="Weight King Logo" />
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="free_weights.html">Shop Now</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li class="burger-login"><a href="login.html">Login</a></li>
+                <li class="burger-register"><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <div class="btn-container">
+            <ul class="btn-links">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+
+    <div class="product-container">
+        <div class="product-images">
+             <img id="main-image" src="" alt="Main Product Image">
+                <div class="thumbnail-images">
+                    <img id="thumb1" class="thumbnail" src="" alt="Thumbnail 1" style="display:none;">
+                    <img id="thumb2" class="thumbnail" src="" alt="Thumbnail 2" style="display:none;">
+                    <img id="thumb3" class="thumbnail" src="" alt="Thumbnail 3" style="display:none;">
+                </div>
+        </div>
+        <div class="product-details">
+            <h1 id="product-name"></h1>
+            <div class="details-content">
+                <h1 id="product-price"></h1>
+                <div class="row1">
+                    <span id="no-ratings"></span>
+                    <span id="product-sold"></span>
+                </div>
+                
+                <div class="row2">
+                    <div class="col1">
+                        <p>Shipping</p>
+                    </div>
+                    <div class="col2">
+                        <p>Shipping To: <span id="product-shipping"></span></p>
+                        <p>Shipping Fee: <span id="product-shipping-fee"></span></p>
+                    </div>
+                </div>
+                <div class="row3">
+                    <p>Variation</p>
+                    <select id="variation-select">
+                        <!-- Options will be dynamically populated -->
+                    </select>
+                </div>
+                <div class="row4">
+                    <p>Quantity</p>
+                    <div class="quantity-selector">
+                        <button onclick="decreaseQuantity()">-</button>
+                        <input type="number" id="quantity" value="1">
+                        <button onclick="increaseQuantity()">+</button>
+                    </div>  
+                </div>
+
+                <div class="row5">
+                    <button id="add-to-cart-btn">Add To Cart</button>
+                    <button id="buy-now-btn">Buy Now</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-specification">
+        <h2>Product Specification</h2>
+        <div class="product-specification-content">
+            <p>Category: <span id="product-category"></span></p>
+            <p>Brand: <span id="product-brand"></span></p>
+            <p>Condition: <span id="product-condition"></span></p>
+            <p>Stock: <span id="product-stock"></span></p>
+            <p>Ships From: <span id="product-ships-from"></span></p>
+        </div>
+    </div>
+    
+    <div class="product-description">
+        <h2>Product Description</h2>
+        <div class="product-description-content">
+            <p id="product-description"></p>
+        </div>
+
+    </div>
+    
+    <div class="product-ratings">
+        <h2>Product Ratings</h2>
+        <div class="product-ratings-content">
+            <p id="product-rating-text"></p>
+            <div id="product-rating"></div>
+        </div>
+    </div>
+    
+    
+    <div class="product-reviews">
+        <h2>Reviews and Comments</h2>
+        <div id="product-reviews"></div>
+    </div>
+    
+    <script src="js/product.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+.login {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(100vh - 70px);
+  padding: 20px;
+  background: url(../images/login-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.login-container {
+  width: 500px;
+  height: 350px;
+  background-color: #f0f0f0;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInRight 1s ease forwards;
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box h1 {
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-box button {
+  width: 100px;
+  padding: 10px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #ffb300;
+}
+
+.login-box p {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.login-box a {
+  color: #ffc107;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}
+
+.logo-picture {
+  text-align: center;
+}
+
+.logo-picture img {
+  width: 500px;
+}
+
+.logo-picture p {
+  color: #f0d438;
+  font-size: 18px;
+}
+
+@keyframes fadeInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes fadeInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1000px) {
+  .login {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .logo-picture img {
+    width: 450px;
+  }
+  .login-container {
+    width: 400px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-container {
+    width: 400px;
+    animation-name: fadeInBottom;
+  }
+  .login-box input {
+    font-size: 14px;
+  }
+  .login-box button {
+    width: 80px;
+    font-size: 14px;
+  }
+  .logo-picture img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .login-container {
+    width: 300px;
+  }
+  .login-box input {
+    font-size: 12px;
+  }
+  .login-box button {
+    width: 70px;
+    font-size: 12px;
+  }
+  .logo-picture img {
+    width: 300px;
+  }
+}

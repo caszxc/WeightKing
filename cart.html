@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="images/weight_king.png" alt="Weight King Logo" />
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="free_weights.html">Shop Now</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li class="burger-login"><a href="login.html">Login</a></li>
+                <li class="burger-register"><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+        <div class="btn-container">
+            <ul class="btn-links">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    
+    <div class="cart-container">
+        <div class="cart-header">
+            <div class="cart-header-item">Product</div>
+            <div class="cart-header-item">Quantity</div>
+            <div class="cart-header-item">Price</div>
+            <div class="cart-header-item">Action</div>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-actions">
+            <div>
+                <input type="checkbox" class="select-all-checkbox">Select All
+            </div>
+            <button class="selected-delete">Delete</button>
+            <span>Total (0 Item): ₱<span id="total-price">0.00</span></span>
+            <button class="checkout">Check Out</button>
+        </div>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
