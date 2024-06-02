@@ -196,6 +196,7 @@
     
     .search-cart-container {
         align-self: center;
+        width: 65%;
     }
 
 }
