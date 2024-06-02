@@ -33,14 +33,15 @@ const products = {
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
             description: "Medicine Balls boast a durable PVC rubber construction with a textured surface for maximum grip and control."+
-            "A great cross trainer for any sport, the ball combines strength training, cardio, flexibility and dynamic muscle training! Available in : 4, 6, 8, 10, 12, 16, 20, & 25lbs.",
+            "A great cross trainer for any sport, the ball combines strength training, cardio, flexibility and dynamic muscle training! Available in : 4, 6, 8, 10, 12, 16, 20, & 25lbs. "+
+            "<br><br><a href='./educational/ball.html'>How to use the product</a>",
             rating: 5,
             reviews: "No reviews yet.",
             images: {
                 main: "images/product-img/freeweights-balls.jpeg",
                 thumb1: "images/product-img/freeweights-balls.jpeg",
-                thumb2: "images/product-img/freeweights-band.jpeg",
-                thumb3: "images/product-img/freeweights-bar.jpeg"
+                thumb2: "images/product-img/freeweights-balls2.jpg",
+                thumb3: "images/product-img/freeweights-balls3.jpg"
             }
         },
 
@@ -59,14 +60,15 @@ const products = {
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/band.html'>How to use the product</a>",
             rating: 1,
             reviews: "No reviews yet.",
             images: {
                 main: "images/product-img/freeweights-band.jpeg",
                 thumb1: "images/product-img/freeweights-band.jpeg",
-                thumb2: "images/product-img/freeweights-band.jpeg",
-                thumb3: "images/product-img/freeweights-band.jpeg"
+                thumb2: "images/product-img/freeweights-band2.jpg",
+                thumb3: "images/product-img/freeweights-band3.jpg"
             }
         },
 
@@ -86,14 +88,15 @@ const products = {
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/bar.html'>How to use the product</a>",
             rating: "1 out of 5",
             reviews: "No reviews yet.",
             images: {
                 main: "images/product-img/freeweights-bar.jpeg",
                 thumb1: "images/product-img/freeweights-bar.jpeg",
-                thumb2: "images/product-img/freeweights-bar.jpeg",
-                thumb3: "images/product-img/freeweights-bar.jpeg"
+                thumb2: "images/product-img/freeweights-bar2.jpg",
+                thumb3: "images/product-img/freeweights-bar3.jpg"
             }
         },
 
@@ -114,14 +117,12 @@ const products = {
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/bench_rack.html'>How to use the product</a>",
             rating: 4,
             reviews: "No reviews yet.",
             images: {
                 main: "images/product-img/freeweights-benchrack.jpeg",
-                thumb1: "images/product-img/freeweights-benchrack.jpeg",
-                thumb2: "images/product-img/freeweights-benchrack.jpeg",
-                thumb3: "images/product-img/freeweights-benchrack.jpeg"
             }
         },
 
@@ -142,14 +143,15 @@ const products = {
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/kettlebell.html'>How to use the product</a>",
             rating: 5,
             reviews: "No reviews yet.",
             images: {
                 main: "images/product-img/freeweights-Kettlebell.jpeg",
                 thumb1: "images/product-img/freeweights-Kettlebell.jpeg",
-                thumb2: "images/product-img/freeweights-Kettlebell.jpeg",
-                thumb3: "images/product-img/freeweights-Kettlebell.jpeg"
+                thumb2: "images/product-img/freeweights-Kettlebell2.jpg",
+                thumb3: "images/product-img/freeweights-Kettlebell3.jpg"
             }
         },
 
@@ -170,14 +172,12 @@ const products = {
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/dumbell_rack.html'>How to use the product</a>",
             rating: 5,
             reviews: "No reviews yet.",
             images: {
                 main: "images/product-img/freeweights-lalagyan.jpeg",
-                thumb1: "images/product-img/freeweights-lalagyan.jpeg",
-                thumb2: "images/product-img/freeweights-lalagyan.jpeg",
-                thumb3: "images/product-img/freeweights-lalagyan.jpeg"
             }
         },
 
@@ -197,18 +197,47 @@ const products = {
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/plates.html'>How to use the product</a>",
             rating: 5,
             reviews: "No reviews yet.",
             images: {
                 main: "images/product-img/freeweights-plates.jpeg",
                 thumb1: "images/product-img/freeweights-plates.jpeg",
-                thumb2: "images/product-img/freeweights-plates.jpeg",
-                thumb3: "images/product-img/freeweights-plates.jpeg"
+                thumb2: "images/product-img/freeweights-plates2.jpg",
+                thumb3: "images/product-img/freeweights-plates3.jpg"
             }
         },
 
         product8: {
+            name: "Dumbell",
+            variations: {
+                "Small": 3000,
+                "Medium": 3500,
+                "Large": 4000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Free Weights",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/dumbell.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/freeweights-dumbell.jpeg",
+                thumb1: "images/product-img/freeweights-dumbell.jpeg",
+                thumb2: "images/product-img/freeweights-dumbell2.jpg",
+                thumb3: "images/product-img/freeweights-dumbell3.jpg"
+            }
+        },
+
+        product9: {
             name: "Barbell",
             variations: {
                 "Small": 3000,
@@ -218,20 +247,18 @@ const products = {
             noRatings: "200 Ratings",
             sold: "0 Sold",
             shipping: "Metro Manila",
-            shippingFee: "₱40",
+            shippingFee: "₱50",
             category: "Weight King > Shop Now > Free Weights",
             brand: "Weight King",
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/barbell.html'>How to use the product</a>",
             rating: 5,
             reviews: "No reviews yet.",
             images: {
                 main: "images/product-img/freeweights-barbell.jpeg",
-                thumb1: "images/product-img/freeweights-barbell.jpeg",
-                thumb2: "images/product-img/freeweights-barbell.jpeg",
-                thumb3: "images/product-img/freeweights-barbell.jpeg"
             }
         }
 
@@ -241,34 +268,146 @@ const products = {
         product1: {
             name: "Leg Extension Machine",
             variations: {
-                "Small": 3000,
-                "Medium": 3500,
-                "Large": 4000,
+                "Standard": 3000,
             },
             noRatings: "200 Ratings",
             sold: "0 Sold",
             shipping: "Metro Manila",
-            shippingFee: "₱40",
+            shippingFee: "₱50",
             category: "Weight King > Shop Now > Free Weights",
             brand: "Weight King",
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/leg_extension.html'>How to use the product</a>",
             rating: 5,
             reviews: "No reviews yet.",
             images: {
-                main: "images/product-img/freeweights-balls.jpeg",
+                main: "images/product-img/machines-leg-extension.jpg",
             }
         },
 
-        //ibang product pa
+        product2: {
+            name: "Chest Press Machine",
+            variations: {
+                "Standard": 3000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱50",
+            category: "Weight King > Shop Now > Free Weights",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/chest_press.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/machines-chest-press-machine.jpeg",
+            }
+        },
+
+        product3: {
+            name: "Leg Press Machine",
+            variations: {
+                "Standard": 3000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱50",
+            category: "Weight King > Shop Now > Free Weights",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/leg_press.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/machines-leg-press-machine.jpeg",
+            }
+        },
+
+        product4: {
+            name: "Seated Dip Machine",
+            variations: {
+                "Standard": 3000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱50",
+            category: "Weight King > Shop Now > Free Weights",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/dip_machine.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/machines-seated-dip-machine.jpeg",
+            }
+        },
+
+        product5: {
+            name: "Stationary Bicycle",
+            variations: {
+                "Standard": 3000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱50",
+            category: "Weight King > Shop Now > Free Weights",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/bicycle.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/machines-stationary-bicycle.jpeg",
+            }
+        },
+
+        product6: {
+            name: "Treadmill",
+            variations: {
+                "Standard": 3000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱50",
+            category: "Weight King > Shop Now > Free Weights",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/treadmill.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/machines-tredmill.jpeg",
+            }
+        },
 
     }, 
 
     calisthenics: {
         product1: {
-            name: "Stationary Bicycle",
+            name: "Ab Wheel Roller",
             variations: {
                 "Small": 3000,
                 "Medium": 3500,
@@ -278,23 +417,155 @@ const products = {
             sold: "0 Sold",
             shipping: "Metro Manila",
             shippingFee: "₱40",
-            category: "Weight King > Shop Now > Free Weights",
+            category: "Weight King > Shop Now > Calisthenics ",
             brand: "Weight King",
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/roller_wheel.html'>How to use the product</a>",
             rating: 5,
             reviews: "No reviews yet.",
             images: {
-                main: "images/product-img/freeweights-balls.jpeg",
-                thumb1: "images/product-img/freeweights-balls.jpeg",
-                thumb2: "images/product-img/freeweights-band.jpeg",
-                thumb3: "images/product-img/freeweights-bar.jpeg"
+                main: "images/product-img/calisthenics-ab-roller.jpeg",
+                thumb1: "images/product-img/calisthenics-ab-roller.jpeg",
+                thumb2: "images/product-img/calisthenics-ab-roller2.jpg",
+                thumb3: "images/product-img/calisthenics-ab-roller3.jpg"
             }
         },
 
-        //ibang product pa
+        product2: {
+            name: "Gymnastic Rings",
+            variations: {
+                "Small": 3000,
+                "Medium": 3500,
+                "Large": 4000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Calisthenics ",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/rings.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/calisthenics-gymnastic-rings.jpeg",
+            }
+        },
+
+        product3: {
+            name: "Kettlebell",
+            variations: {
+                "Small": 3000,
+                "Medium": 3500,
+                "Large": 4000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Calisthenics ",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/kettlebell.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/calisthenics-kettlebell.jpeg",
+            }
+        },
+
+        product4: {
+            name: "Paralletes",
+            variations: {
+                "Small": 3000,
+                "Medium": 3500,
+                "Large": 4000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Calisthenics ",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/paralletes.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/calisthenics-parallettes.jpeg",
+                thumb1: "images/product-img/calisthenics-parallettes.jpeg",
+                thumb2: "images/product-img/calisthenics-parallettes2.jpeg",
+            }
+        },
+
+        product5: {
+            name: "Pull up Bar",
+            variations: {
+                "Small": 3000,
+                "Medium": 3500,
+                "Large": 4000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Calisthenics ",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/pull_up_bar.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/calisthenics-pull-up-bar.jpeg",
+                thumb1: "images/product-img/calisthenics-pull-up-bar.jpeg",
+                thumb2: "images/product-img/calisthenics-pull-up-bar2.jpeg",
+                thumb3: "images/product-img/calisthenics-pull-up-bar3.jpeg"
+            }
+        },
+
+        product6: {
+            name: "Push up Bar",
+            variations: {
+                "Small": 3000,
+                "Medium": 3500,
+                "Large": 4000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Calisthenics",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/push_up_bar.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/calisthenics-push-up-bar.jpeg",
+                thumb1: "images/product-img/calisthenics-push-up-bar.jpeg",
+                thumb2: "images/product-img/calisthenics-push-up-bar2.jpeg",
+                thumb3: "images/product-img/calisthenics-push-up-bar3.jpeg"
+            }
+        }
 
     },
 
@@ -302,32 +573,121 @@ const products = {
         product1: {
             name: "Air Bike",
             variations: {
-                "Small": 3000,
-                "Medium": 3500,
-                "Large": 4000,
+                "Standard": 3000,
             },
             noRatings: "200 Ratings",
             sold: "0 Sold",
             shipping: "Metro Manila",
             shippingFee: "₱40",
-            category: "Weight King > Shop Now > Free Weights",
+            category: "Weight King > Shop Now > Cardio ",
             brand: "Weight King",
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/air_bike.html'>How to use the product</a>",
             rating: 5,
             reviews: "No reviews yet.",
             images: {
-                main: "images/product-img/freeweights-balls.jpeg",
-                thumb1: "images/product-img/freeweights-balls.jpeg",
-                thumb2: "images/product-img/freeweights-band.jpeg",
-                thumb3: "images/product-img/freeweights-bar.jpeg"
+                main: "images/product-img/cardio-air-bike.jpeg",
             }
         },
 
-        //ibang product pa
-        
+        product2: {
+            name: "Indoor Rower",
+            variations: {
+                "Standard": 3000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Cardio ",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/indoor_rower.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/cardio-indoor-rower.jpeg",
+            }
+        },
+
+
+        product3: {
+            name: "Stair Climber",
+            variations: {
+                "Standard": 3000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Cardio ",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/stair_climber.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/cardio-stair-climber.jpeg",
+            }
+        },
+
+
+        product4: {
+            name: "Stationary Bicycle",
+            variations: {
+                "Standard": 3000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Cardio ",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/bicycle.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/cardio-stationary-bicycle.jpeg",
+            }
+        },
+
+
+        product5: {
+            name: "Treadmill",
+            variations: {
+                "Standard": 3000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Cardio ",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/treadmill.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/cardio-treadmill.jpeg",
+            }
+        }
+
     },
 
     gears: {
@@ -342,23 +702,106 @@ const products = {
             sold: "0 Sold",
             shipping: "Metro Manila",
             shippingFee: "₱40",
-            category: "Weight King > Shop Now > Free Weights",
+            category: "Weight King > Shop Now > Gears",
             brand: "Weight King",
             condition: "New",
             stock: 10,
             shipsFrom: "Valenzuela City, Metro Manila",
-            description: "This is a great product.",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/belt.html'>How to use the product</a>",
             rating: 5,
             reviews: "No reviews yet.",
             images: {
-                main: "images/product-img/freeweights-balls.jpeg",
-                thumb1: "images/product-img/freeweights-balls.jpeg",
-                thumb2: "images/product-img/freeweights-band.jpeg",
-                thumb3: "images/product-img/freeweights-bar.jpeg"
+                main: "images/product-img/gears-weight-lifting-belt.jpeg",
+                thumb1: "images/product-img/gears-weight-lifting-belt.jpeg",
+                thumb2: "images/product-img/gears-weight-lifting-belt2.jpeg",
+                thumb3: "images/product-img/gears-weight-lifting-belt3.jpeg"
             }
         },
 
-        //ibang product pa
+        product2: {
+            name: "Weight Training Gloves",
+            variations: {
+                "Small": 3000,
+                "Medium": 3500,
+                "Large": 4000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Gears",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/gloves.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/gears-weight-training-gloves.jpeg",
+                thumb1: "images/product-img/gears-weight-training-gloves.jpeg",
+                thumb2: "images/product-img/gears-weight-training-gloves2.jpeg",
+                thumb3: "images/product-img/gears-weight-training-gloves3.jpeg"
+            }
+        },
+
+        product3: {
+            name: "Wrist Straps",
+            variations: {
+                "Small": 3000,
+                "Medium": 3500,
+                "Large": 4000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Gears",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/wrist_straps.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/gears-wrist-straps.jpeg",
+                thumb1: "images/product-img/gears-wrist-straps.jpeg",
+                thumb2: "images/product-img/gears-wrist-straps2.jpeg",
+                thumb3: "images/product-img/gears-wrist-straps3.jpeg"
+            }
+        },
+
+        product4: {
+            name: "Shoulder Strap",
+            variations: {
+                "Small": 3000,
+                "Medium": 3500,
+                "Large": 4000,
+            },
+            noRatings: "200 Ratings",
+            sold: "0 Sold",
+            shipping: "Metro Manila",
+            shippingFee: "₱40",
+            category: "Weight King > Shop Now > Gears",
+            brand: "Weight King",
+            condition: "New",
+            stock: 10,
+            shipsFrom: "Valenzuela City, Metro Manila",
+            description: "This is a great product."+
+            "<br><br><a href='./educational/shoulder_strap.html'>How to use the product</a>",
+            rating: 5,
+            reviews: "No reviews yet.",
+            images: {
+                main: "images/product-img/gears-shoulder-strap.jpg",
+                thumb1: "images/product-img/gears-shoulder-strap.jpg",
+                thumb2: "images/product-img/gears-shoulder-strap2.jpg",
+                thumb3: "images/product-img/gears-shoulder-strap3.jpg"
+            }
+        }
         
     }
 };
@@ -416,7 +859,8 @@ function loadProduct(category, productId) {
     document.getElementById('product-stock').textContent = product.stock;
     document.getElementById('product-ships-from').textContent = product.shipsFrom;
     
-    document.getElementById('product-description').textContent = product.description;
+    document.getElementById('product-description').innerHTML = product.description;
+
     renderRating(product.rating);
     document.getElementById('product-reviews').textContent = product.reviews;
 
