@@ -144,3 +144,75 @@
         transform: translateX(0);
     }
 }
+
+/* Mobile First Approach */
+@media screen and (max-width: 768px) {
+    .about-us {
+        margin: 30px;
+    }
+
+    .mission-vision-container,
+    .developers-container {
+        flex-direction: column;
+    }
+
+    .mission-vision-container,
+    .developers-container {
+        margin: 30px 0;
+    }
+
+    .our-mission,
+    .our-vision,
+    .mission-image,
+    .vision-image,
+    .developers {
+        width: 100%;
+    }
+
+    .developers {
+        margin: 20px auto;
+    }
+
+    .about-us-header img {
+        margin-bottom: 20px;
+    }
+}
+
+/* Tablet and Desktop */
+@media screen and (min-width: 769px) {
+    .about-us {
+        margin: 50px;
+    }
+
+    .mission-vision-container,
+    .developers-container {
+        margin: 50px 0;
+    }
+
+    .mission-vision-container,
+    .developers-container {
+        flex-direction: row;
+    }
+
+    .our-mission,
+    .our-vision {
+        width: 45%;
+    }
+
+    .mission-image,
+    .vision-image {
+        width: 45%;
+    }
+
+    .our-mission,
+    .our-vision,
+    .mission-image,
+    .vision-image {
+        margin-bottom: 0;
+    }
+
+    .developers {
+        width: 200px;
+        margin: 50px;
+    }
+}
